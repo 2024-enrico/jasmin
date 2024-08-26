@@ -3,18 +3,18 @@ using namespace std;
 
 void listFILE(){
 	int num;
-	cout << "\t------> LIST FILE DETAILS <------\n";
-	cout << "[1] List All Files \n";
-	cout << "[2] List of Extension Files \n";
-	cout << "[3] List of Name Wise\n";
+	cout << "\t------> LIST FILE DETAILS <------"<< endl;
+	cout << "[1] List All Files "<< endl;
+	cout << "[2] List of Extension Files " << endl;
+	cout << "[3] List of Name Wise"<< endl;
 	cout << "Enter your Choice: ";
 		cin >> num;
 		
 		if(num == 1){
-	cout << "\nList of All(*.*) Files \n";
-	cout << "file1.txt\nfile2.cpp\nreport.doc\nimage.jpg\n(continues...)\n";
-	cout << "\nTotal Files: 4\n";
-	cout << "Press any key  to continue...\n\n";
+	cout << "\nList of All(*.*) Files "<< endl;
+	cout << "file1.txt\nfile2.cpp\nreport.doc\nimage.jpg\n(continues...)"<< endl;
+	cout << "\nTotal Files: 4"<< endl;
+	cout << "Press any key  to continue...\n"<< endl;
 	
 		}
 }
